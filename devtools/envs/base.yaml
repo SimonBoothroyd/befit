@@ -1,0 +1,51 @@
+name: befit
+
+channels:
+  - conda-forge
+
+dependencies:
+
+  - python >=3.10
+  - pip
+
+  - click
+
+  - pytorch
+  - tensorboardX
+
+  - smee
+  - descent
+
+  - openmm
+  - openmm-torch =*=*cpu*
+
+  - openff-toolkit-base
+  - openff-interchange-base
+
+  - qcengine
+  - torsiondrive
+  - geometric
+
+  # Dev / Testing
+#  - psi4
+  - nomkl
+
+  - versioneer
+
+  - pre-commit
+  - ruff
+
+  - pytest
+  - pytest-mock
+  - pytest-cov
+  - codecov
+
+  # Docs
+  - mkdocs
+  - mkdocs-material
+  - mkdocs-gen-files
+  - mkdocs-literate-nav
+  - mkdocstrings
+  - mkdocstrings-python
+  - black
+  - mike
